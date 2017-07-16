@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var http = require("http");
 var express = require("express");
 var util = require('./utils.js');
@@ -17,3 +18,6 @@ http.createServer(function (request, response) {
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/', util.getCountryCode());
+=======
+console.log("Hello World");
+>>>>>>> 0a816a9a5c7ba50071abbe2bb235f94824e09328
